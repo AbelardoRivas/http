@@ -29,11 +29,7 @@ class FullPost extends Component {
           post = (
               <div className="FullPost">
                   <h1>{this.state.loadedPost.title}</h1>
-<<<<<<< HEAD
                   <p>{this.state.loadedPost.body}</p>
-=======
-                  <p>{this.state.loadedPost.content}</p>
->>>>>>> 680764be79f2a17ca6fcde15f5a02ec0908becc6
                   <div className="Edit">
                       <button className="Delete">Delete</button>
                   </div>
